@@ -1,3 +1,10 @@
-
+.teste-sass p {
+  color: 0;
+  font-size: 0.5rem;
+}
+.teste-sass h3 {
+  color: cadetblue;
+  font-size: 2rem;
+}
 
 /*# sourceMappingURL=style.css.map */
