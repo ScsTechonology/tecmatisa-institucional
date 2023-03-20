@@ -1,18 +1,127 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="./css/style.css">
+   <link rel="stylesheet" href="./Assets/CSS/index.css">
    <title>Document</title>
 </head>
 <body>
-   <div class="teste-sass">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam sit ratione laborum aliquam deleniti itaque dignissimos tenetur ad vel cumque rem molestias aut nulla voluptas eaque, sunt, consequuntur odio modi?</p>
+   <header>
+      <nav class="nav-bar">
+          <div class="logo">
+              <img src="./Assets/IMG/novo-logo-tecmatisa 1.png" alt="">
+          </div>
+          <div class="nav-list">
+              <ul>
+                  <li class="nav-item"><a href="#" class="nav-link">Início</a></li>
+                  <li class="nav-item"><a href="#" class="nav-link">Serviços</a></li>
+                  <li class="nav-item"><a href="#" class="nav-link"> Produtos</a></li>
+                  <li class="nav-item"><a href="#" class="nav-link"> Quem Somos</a></li>
+              </ul>
+          </div>
+          <div class="login-button">
+              <button><a href="#">Contato</a></button>
+          </div>
 
-      <h3>teste</h3>
+          <div class="mobile-menu-icon">
+              <button onclick="menuShow()"><img class="icon" src="Assets/IMG/menu_white_36dp.svg" alt=""></button>
+          </div>
+      </nav>
+      <div class="mobile-menu">
+          <ul>
+              <li class="nav-item"><a href="#" class="nav-link">Início</a></li>
+              <li class="nav-item"><a href="#" class="nav-link">Serviços</a></li>
+              <li class="nav-item"><a href="#" class="nav-link">Produtos</a></li>
+          </ul>
 
+          <div class="login-button">
+              <button><a href="#">Contato</a></button>
+          </div>
+      </div>
+  </header>
+
+  <!-- CONTAINER ABAIXO DA PRENSA NO BANNER -->
+  <section class="section-banner">
+   <div class="text-header">
+      <h1>Produção rápida e eficiente com prensas Tecmatisa </h1>
+      <p>A Tecmatisa é líder em fabricação de prensas enfardadeirasContamos com equipe de Técnicos e Engenheiros capazes de realizar projetos e serviços com rapidez e eficiência</p>
+      <div class="btn-info-header">
+         <button><a href="#">Fale Conosco</a></button>
+      </div>
    </div>
+   <div class="banner-image">
+      <img src="./Assets/IMG/Sem Título-2 1.png" alt="prensa-banner">
+   </div>
+
+   <div class="card-container-info">
+      <h2 class="oferta">
+         Conheça o que a tecmatisa oferece
+      </h2>
+      <h3>Qualidade e segurança</h3>
+      <h3>Praticidade no trabalho</h3>
+      <h3>Prensas para reciclagem </h3>
+
+      <div class="btn-info">
+         <a href="#"><img src="./Assets/IMG/arrowright2.svg" alt=""></a>
+      </div>
+   </div>
+  </section>
+
+
+  <!-- SECTION SOBRE AS PRENSAS -->
+  <section>
+   <div class="image-prensas">
+      <img src="./Assets/IMG/Sem Título-1 1.png" alt="">
+   </div>
+
+   <div class="info-prensas">
+      <h2>Prensas Tecmatisa </h2>
+      <p>As prensas Tecmatisa são referência em qualidade no mercado de prensas para reciclagem. Com construção robusta e durável, cada prensa é fabricada com materiais de alta qualidade e componentes de ponta para garantir desempenho consistente. As prensas Tecmatisa são uma escolha segura e confiável para empresas que buscam equipamentos de alto desempenho.</p>
+   </div>
+  </section>
+
+
+  <section class="contador">
+   <div class="title">
+      <h2>
+         Já ajudamos varias empresas a otimizarem os seus processos de trabalho.
+      </h2>
+   </div>
+
+   <div class="number-container">
+      <div class="number">
+         <span>+ de 7</span>
+         <p>anos de experiência </p>
+      </div>
+   
+      <div class="number">
+         <span>+ de 7</span>
+         <p>anos de experiência </p>
+      </div>
+   
+      <div class="number">
+         <span>+ de 7</span>
+         <p>anos de experiência </p>
+      </div>
+   </div>
+
+   <picture>
+      <img src="./Assets/IMG/logo-cliente/BRF-Logo 1.png" alt="">
+
+      <img src="./Assets/IMG/logo-cliente/cliente-ccr-aeroportos 1.png" alt="">
+
+      <img src="./Assets/IMG/logo-cliente/cliente-hospital-sirio-libanes 1.png" alt="">
+
+      <img src="./Assets/IMG/logo-cliente/cliente-nicoletti 1.png" alt="">
+      
+      <img src="./Assets/IMG/logo-cliente/cliente-suzano 1.png" alt="">
+   </picture>
+
+
+  </section>
+
+  <script src="Assets/JS/index.js"></script>
 </body>
 </html>
