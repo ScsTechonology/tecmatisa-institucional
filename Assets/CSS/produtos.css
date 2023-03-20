@@ -15,17 +15,17 @@
     padding: 1.5rem 6rem;
 }
 
-/* .logo {
+.logo {
     display: flex;
     align-items: center;
-} */
+}
 
 .logo img {
     width: 150px;
 }
 
 .nav-list {
-    /* display: flex; */
+    display: flex;
     align-items: center;
 }
 
@@ -37,7 +37,7 @@
 }
 
 .nav-item {
-    margin-left: 15px;
+    margin: 0 15px;
 }
 
 .nav-link {
