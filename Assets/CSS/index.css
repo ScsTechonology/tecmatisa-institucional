@@ -4,6 +4,7 @@
    padding: 0;
    margin: 0;
    font-family: 'Montserrat', sans-serif;
+   box-sizing: border-box;
 }
 
 
@@ -53,6 +54,8 @@
    padding: .5rem;
    border-radius: 25px;
    background-color: #171717;
+
+   transition: 0.5s ease;
 }
 
 .login-button button a {
@@ -60,6 +63,11 @@
    color: #fff;
    font-weight: 500;
    font-size: 11px;
+}
+
+.login-button button:hover {
+   background-color: #EB5858;
+   transform: scale(1.1);
 }
 
 .mobile-menu-icon {
@@ -71,15 +79,16 @@
 }
 
 .section-banner {
+   display: flex;
+   align-items: center;
+   flex-wrap: wrap;
    padding: 6rem;
 }
 
 .text-header h1 {
-   position: absolute;
    width: 563px;
    height: 78px;
-   left: 102px;
-   top: 246px;
+
 
    font-family: 'Montserrat';
    font-style: normal;
@@ -92,12 +101,10 @@
 }
 
 .text-header p {
-   position: absolute;
+
    width: 526px;
    height: 60px;
-   left: 106px;
-   top: 334px;
-
+   margin-top: .7rem;
    font-family: 'Montserrat';
    font-style: normal;
    font-weight: 500;
@@ -109,7 +116,6 @@
 
 
 .btn-info-header button {
-   position: absolute;
    width: 150px;
    height: 34px;
    left: 102px;
@@ -117,7 +123,10 @@
    background-color: #171717;
    border: none;
    padding: .5rem;
+   margin-top: .8rem;
    border-radius: 22px;
+   transition: 0.5s ease;
+   cursor: pointer;
 }
 
 .btn-info-header button>a {
@@ -125,37 +134,40 @@
    color: #fff;
 }
 
+.btn-info-header button:hover {
+   background-color: #EB5858;
+   transform: scale(1.1);
+}
+
 
 .banner-image {
-   position: absolute;
    width: 428px;
    height: 547px;
-   left: 780px;
-   top: 81px;
-
-   background: url(../IMG/Sem\ Título-2\ 1.png);
+   margin-top: -130px;
+   margin-left: 7rem;
    filter: drop-shadow(0px 0px 19px rgba(0, 0, 0, 0.2));
 }
 
 
 
-.card-container-info {
+.card-container {
    display: flex;
    align-items: center;
    justify-content: space-around;
-
-   position: absolute;
-   width: 1234px;
+   width: 100%;
    height: 164px;
-   left: 102px;
-   top: 579px;
+
 
    background: #FFFFFF;
    border: 1px solid rgba(235, 88, 88, 0.35);
    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.25);
    border-radius: 20px;
    z-index: 10000;
+}
 
+.card-container-info {
+   display: flex;
+   gap: 3rem;
 }
 
 .oferta {
@@ -187,7 +199,7 @@
    left: 1232px;
    top: 630px;
    border-radius: 50%;
-
+   transition: 0.5s ease-in-out;
 
    background: #4B4B4B;
 
@@ -196,22 +208,30 @@
    justify-content: center;
 }
 
+.btn-info:hover {
+   background-color: #EB5858;
+   transform: scale(1.1);
+}
+
+.section-about {
+   display: flex;
+
+   align-items: center;
+   padding: 6rem;
+}
 
 .image-prensas img {
-   position: absolute;
    width: 475px;
    height: 324px;
-   left: 94.25px;
-   top: 881.74px;
+
+   margin-top: -5rem;
 
 }
 
 .info-prensas h2 {
-   position: absolute;
    width: 254px;
    height: 32px;
-   left: 607px;
-   top: 970px;
+   margin-left: 3rem;
 
    font-family: 'Montserrat';
    font-style: normal;
@@ -225,11 +245,12 @@
 }
 
 .info-prensas p {
-   position: absolute;
+
    width: 708px;
    height: 176px;
-   left: 607px;
-   top: 1022px;
+   margin-left: 3rem;
+   margin-top: .5rem;
+
 
    font-family: 'Montserrat';
    font-style: normal;
@@ -240,13 +261,16 @@
    color: #4B4B4B;
 }
 
-.contador {
-   position: absolute;
 
-   width: 1234px;
+
+
+.contador-container {
+   padding: 6rem;
+}
+
+.contador {
+   width: 100%;
    height: auto;
-   left: 106px;
-   top: 1342px;
    padding: 2rem;
 
    background: #FFFFFF;
@@ -304,8 +328,8 @@
    margin-top: 5rem;
 }
 
-.PRODUCT-CONTAINER h2 {
-   position: absolute;
+
+.product-container h2 {
    width: 451px;
    height: 78px;
    left: 106px;
@@ -320,67 +344,78 @@
    color: #000000;
 }
 
+.swiper-slide {
+   padding: 6rem;
+}
 
-.card {
-   position: absolute;
+.card-conteudo {
+   padding: 2rem;
    display: flex;
    flex-direction: column;
-   padding: 1rem;
+
    width: 354px;
-   height: auto;
-   left: 110px;
-   top: 2189px;
+   height: 540px;
 
    background: #FFFFFF;
    box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.14);
    border-radius: 22px;
 }
+.card-conteudo:hover{
+   border: #EB5858 1px solid;
+}
 
-.conteudo {
+.content {
    display: flex;
    flex-direction: column;
-
    align-items: center;
 }
 
-.card .conteudo img {
+.content img {
    width: 161px;
    height: 363px;
+}
+
+.content span {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: #1E1E1E;
+   width: 172px;
+   height: 32px;
+   border-radius: 22px;
+   font-size: 15px;
+   color: #fff;
+   margin-top: 1rem;
+}
+
+.btn-text-card{
+   display: flex;
+   justify-content: space-between;
+}
+.btn-text-card p {
+   width: 171px;
+   height: 40px;
+   margin-top: 1rem;
+}
+
+.btn-text-card a{
+   width: 46px;
+   height: 46px;
 
 }
 
-.conteudo span {
+.btn__card{
+   width: 46px;
+   height: 46px;
+   border-radius: 50%;
    display: flex;
    justify-content: center;
    align-items: center;
-   width: 172px;
-   height: 32px;
 
-   background: #1E1E1E;
-   border-radius: 18px;
-
-   font-family: 'Montserrat';
-   font-style: normal;
-   font-weight: 500;
-   font-size: 14px;
-   line-height: 17px;
-   color: #FFFFFF;
-
+   margin-top: 0.5rem;
+   background: #4B4B4B;  
 }
 
-.title-card-btn p{
-   margin-top: 2rem;
-   width: 171px;
-height: 40px;
-
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 700;
-font-size: 16px;
-line-height: 20px;
-
-color: #1E1E1E;
-}
 
 
 @media screen and (max-width: 730px) {
