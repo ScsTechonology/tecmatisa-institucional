@@ -328,12 +328,13 @@
    margin-top: 5rem;
 }
 
+.product-container{
+   padding: 6rem;
+}
 
 .product-container h2 {
    width: 451px;
    height: 78px;
-   left: 106px;
-   top: 2062px;
 
    font-family: 'Montserrat';
    font-style: normal;
@@ -344,14 +345,13 @@
    color: #000000;
 }
 
-.swiper-slide {
-   padding: 6rem;
-}
+
 
 .card-conteudo {
    padding: 2rem;
    display: flex;
    flex-direction: column;
+   margin: 1rem;
 
    width: 354px;
    height: 540px;
@@ -391,6 +391,7 @@
 .btn-text-card{
    display: flex;
    justify-content: space-between;
+   align-items: center;
 }
 .btn-text-card p {
    width: 171px;
@@ -398,11 +399,6 @@
    margin-top: 1rem;
 }
 
-.btn-text-card a{
-   width: 46px;
-   height: 46px;
-
-}
 
 .btn__card{
    width: 46px;
