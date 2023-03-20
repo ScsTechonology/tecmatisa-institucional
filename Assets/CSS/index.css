@@ -288,21 +288,100 @@
    color: #EB5858;
 }
 
-.number p{
+.number p {
    font-family: 'Montserrat';
-font-style: normal;
-font-weight: 600;
-font-size: 18px;
-line-height: 22px;
-letter-spacing: -0.045em;
-color: #4B4B4B;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 18px;
+   line-height: 22px;
+   letter-spacing: -0.045em;
+   color: #4B4B4B;
 }
 
-.contador picture{
+.contador picture {
    display: flex;
    justify-content: center;
    margin-top: 5rem;
 }
+
+.PRODUCT-CONTAINER h2 {
+   position: absolute;
+   width: 451px;
+   height: 78px;
+   left: 106px;
+   top: 2062px;
+
+   font-family: 'Montserrat';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 32px;
+   line-height: 39px;
+
+   color: #000000;
+}
+
+
+.card {
+   position: absolute;
+   display: flex;
+   flex-direction: column;
+   padding: 1rem;
+   width: 354px;
+   height: auto;
+   left: 110px;
+   top: 2189px;
+
+   background: #FFFFFF;
+   box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.14);
+   border-radius: 22px;
+}
+
+.conteudo {
+   display: flex;
+   flex-direction: column;
+
+   align-items: center;
+}
+
+.card .conteudo img {
+   width: 161px;
+   height: 363px;
+
+}
+
+.conteudo span {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 172px;
+   height: 32px;
+
+   background: #1E1E1E;
+   border-radius: 18px;
+
+   font-family: 'Montserrat';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 17px;
+   color: #FFFFFF;
+
+}
+
+.title-card-btn p{
+   margin-top: 2rem;
+   width: 171px;
+height: 40px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+
+color: #1E1E1E;
+}
+
 
 @media screen and (max-width: 730px) {
    .nav-bar {
