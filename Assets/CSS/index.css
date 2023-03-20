@@ -413,6 +413,10 @@
 }
 
 
+.swiper-wrapper{
+   gap: 3rem;
+}
+
 
 @media screen and (max-width: 730px) {
    .nav-bar {
