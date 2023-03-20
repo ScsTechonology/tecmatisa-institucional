@@ -328,7 +328,7 @@
    margin-top: 5rem;
 }
 
-.product-container{
+.product-container {
    padding: 6rem;
 }
 
@@ -360,7 +360,8 @@
    box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.14);
    border-radius: 22px;
 }
-.card-conteudo:hover{
+
+.card-conteudo:hover {
    border: #EB5858 1px solid;
 }
 
@@ -388,11 +389,12 @@
    margin-top: 1rem;
 }
 
-.btn-text-card{
+.btn-text-card {
    display: flex;
    justify-content: space-between;
    align-items: center;
 }
+
 .btn-text-card p {
    width: 171px;
    height: 40px;
@@ -400,7 +402,7 @@
 }
 
 
-.btn__card{
+.btn__card {
    width: 46px;
    height: 46px;
    border-radius: 50%;
@@ -409,11 +411,11 @@
    align-items: center;
 
    margin-top: 0.5rem;
-   background: #4B4B4B;  
+   background: #4B4B4B;
 }
 
 
-.swiper-wrapper{
+.swiper-wrapper {
    gap: 3rem;
 }
 
