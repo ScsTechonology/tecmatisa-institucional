@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
 * {
     padding: 0;
     margin: 0;
@@ -20,3 +23,44 @@
 .logo img {
     width: 150px;
 }
+
+.nav-list {
+    /* display: flex; */
+    align-items: center;
+}
+
+.nav-list ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+
+}
+
+.nav-item {
+    margin-left: 15px;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 18px;
+    color: #171717;
+    font-weight: 600;
+}
+.login-button button{
+    border: none;
+    width: 100px;
+    padding: .5rem;
+    border-radius: 25px;
+    background-color: #171717;
+
+    transition: 0.5s ease;
+}
+
+.login-button button a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 11px;
+}
+
+.text-header{}
