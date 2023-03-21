@@ -238,8 +238,12 @@
                </div>
             </div>
          </div>
-         <div class="swiper-button-next"></div>
-         <div class="swiper-button-prev"></div>
+         <div class="swiper-button-next right-arrow">
+            <img src="./Assets/IMG/arrowright2.svg" alt="">
+         </div>
+         <div class="swiper-button-prev left-arrow">
+            <img src="./Assets/IMG/arrowleft2.svg" alt="">
+         </div>
       </div>
    </section>
 
@@ -249,8 +253,8 @@
    <script src="./Assets/JS/swiper-bundle.min.js"></script>]
    <script>
       var swiper = new Swiper(".mySwiper", {
-         slidesPerView: 4,
-         spaceBetween: 30,
+         slidesPerView: 3,
+         spaceBetween: 0,
          loop: false,
          pagination: {
             el: ".swiper-pagination",
