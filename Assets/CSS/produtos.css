@@ -75,6 +75,8 @@
 
 #dropbtn {
     display: inline-block;
+    padding-left: 1.5rem;
+    padding-right: 2rem;
 }
 
 .dropdown-content {
@@ -83,6 +85,7 @@
     text-align: center;
     background-color: white;
     border-radius: 15px;
+    font-size: 15px;
 }
 
 .dropdown-content a {
@@ -91,6 +94,7 @@
     text-align: left;
     color: #171717;
     padding-top: 10px;
+    max-width: 80%;
 }
 
 
@@ -102,14 +106,12 @@
 #dropdown:hover #dropbtn {
     /* background-color: rgb(247, 224, 224); */
     border-bottom: red solid 1px;
-    padding-left: 1px;
-    padding-right: 1px;
+
 }
 
 #dropbtn:hover {
     background-color: rgb(247, 224, 224);
     border-radius: 3px;
-    padding: 1px;
     transition: 0.5s ease;
 }
 
@@ -117,4 +119,39 @@
     background-color: rgb(247, 246, 246);
     /* padding-top: 13px; */
     transition: 0.5s ease;
+}
+
+.element-section {
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 117px;
+    align-items: center;
+    text-align: left;
+    padding: 2rem 6rem;
+    color: #000000;
+    display: flex;
+}
+
+.element-section1 {
+
+    display: flex;
+
+    padding: 6rem;
+
+    justify-content: space-between;
+
+}
+
+.element-section #element-title>h2 {
+    text-align: center;
+}
+
+#element-title {
+    border-right: 1px solid #000000;
+    height: 50px;
+    padding-right: 15rem;
+    max-width: 100px;
 }
