@@ -81,7 +81,8 @@
     display: none;
     position: absolute;
     text-align: center;
-    background-color: rgb(250, 255, 255);
+    background-color: white;
+    border-radius: 15px;
 }
 
 .dropdown-content a {
@@ -89,6 +90,7 @@
     display: block;
     text-align: left;
     color: #171717;
+    padding-top: 10px;
 }
 
 
@@ -106,15 +108,13 @@
 
 #dropbtn:hover {
     background-color: rgb(247, 224, 224);
-    border-radius: 5px;
-    padding-left: 1px;
-    padding-right: 1px;
+    border-radius: 3px;
+    padding: 1px;
     transition: 0.5s ease;
-} 
+}
 
 .dropdown-content a:hover {
     background-color: rgb(247, 246, 246);
-    padding-top: 3px;
+    /* padding-top: 13px; */
     transition: 0.5s ease;
-    border-radius: 50px;
 }
