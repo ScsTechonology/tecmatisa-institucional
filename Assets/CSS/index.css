@@ -705,5 +705,12 @@
       max-width: 100%;
       padding: 1rem;
    }
- 
+
+   .princiais-marcas-logo{
+      padding: 1rem;
+   }
+   
+   .princiais-marcas-logo img{
+      width: 70px;
+   }
 }
