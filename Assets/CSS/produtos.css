@@ -97,9 +97,18 @@
 
 }
 
+#dropdown:hover #dropbtn {
+    /* background-color: rgb(247, 224, 224); */
+    border-bottom: red solid 1px;
+    padding-left: 1px;
+    padding-right: 1px;
+}
+
 #dropbtn:hover {
     background-color: rgb(247, 224, 224);
-    border-radius: 2px;
+    border-radius: 5px;
+    padding-left: 1px;
+    padding-right: 1px;
     transition: 0.5s ease;
 }
 
@@ -108,8 +117,4 @@
     padding-top: 3px;
     transition: 0.5s ease;
     border-radius: 50px;
-}
-
-#dropdown:hover #dropbtn {
-    background-color: rgb(247, 224, 224);
 }
