@@ -22,9 +22,6 @@
 }
 
 
-.swiper-slide{
-   padding: 6rem;
-}
 
 
 /* NAVEGAÇÃO HEADER */
@@ -366,13 +363,15 @@
    color: #000000;
 }
 
+.swiper-slide{
+   padding: 3rem;
+}
 
 
 .card-conteudo {
    padding: 2rem;
    display: flex;
    flex-direction: column;
-   margin: 1rem;
 
    width: 354px;
    height: 540px;
@@ -657,5 +656,42 @@
       max-width: 150px;
       color: #767676;
    }
-   
+
+   .section-about{
+      display: none;
+      
+   }
+
+
+   .contador-container {
+      display: none;
+   }
+
+   .product-container{
+      padding: 1rem;
+      width: 100%;
+   }
+
+   .product-container{
+      padding: 0;
+   }
+
+   .product-container h2{
+      font-size: 1.8rem;
+      max-width: 100%;
+      padding: 1rem;
+   }
+
+   .swiper-slide{
+      padding: 1rem;
+      padding-top: 2rem;
+   }
+
+
+
+   .card-conteudo{
+      max-width: 100%;
+      padding: 1rem;
+   }
+ 
 }
