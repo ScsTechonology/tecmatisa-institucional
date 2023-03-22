@@ -515,6 +515,105 @@
    width: 150px;
 }
 
+
+/* FOOTER */
+.container-footer{
+   background-color: #171717;
+   height: auto;
+   justify-content: center;
+}
+
+.logo-footer{
+   display: flex;
+   justify-content: center;
+}
+.image-footer{
+   width: 140px;
+   height: 140px;
+   border-radius: 50%;
+   background-color: #fff;
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.57);
+   margin-top: -4rem;
+}
+
+.footer-information{
+   margin-top: 1rem;
+}
+.logo-footer img{
+   width: 130px;
+}
+
+.institucional{
+   margin-right: 10rem;
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   gap: 1rem;
+}
+.footer-information{
+   display: flex;
+   justify-content: space-around;
+}
+
+.info-tecmatisa p{
+   max-width: 300px;
+   color: #fff;
+}
+
+.institucional h2{
+   color: #fff;
+}
+.institucional ul{
+   list-style: none;
+}
+
+.institucional ul li{
+   margin-bottom: 5px;
+
+}
+
+.institucional a{
+   gap: 1rem;
+   color: #fff;
+   text-decoration: none;
+   transition: 0.5s ease;
+}
+
+.institucional a:hover{
+   opacity: 0.5;
+}
+
+.contato{
+   color: #fff;
+}
+
+.contato ul{
+   list-style: none;
+   margin-top: 1rem;
+}
+
+.contato li{
+   text-align: center;
+}
+
+.contato a{
+   text-decoration: none;
+   color: #fff;
+}
+
+.contato a:hover{
+   opacity: 0.5;
+}
+
+.contato ul li{
+   margin-bottom: 5px;
+}
+
+
 @media screen and (max-width: 730px) {
    .nav-bar {
       padding: 1.5rem 2rem;
