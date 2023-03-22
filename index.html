@@ -78,7 +78,7 @@
 
 
    <!-- SECTION SOBRE AS PRENSAS -->
-   <!-- <section class="section-about">
+   <section class="section-about">
       <div class="image-prensas">
          <img src="./Assets/IMG/Sem Título-1 1.png" alt="">
       </div>
@@ -130,16 +130,17 @@
             <img src="./Assets/IMG/logo-cliente/cliente-suzano 1.png" alt="">
          </picture>
       </div>
-   </section> -->
+   </section>
+   
+   
 
    <!-- SLIDE PRODUTO -->
-   <!-- <section class="product-container">
-      <h2>Algumas prensas que nós fabricamos</h2> -->
+   <section class="product-container">
+      <h2>Algumas prensas que nós fabricamos</h2>
    <!-- Swiper -->
-   <!-- <div class="swiper mySwiper">
+   <div class="swiper mySwiper">
          <div class="swiper-wrapper">
             <div class="swiper-slide">
-
                <div class="card-conteudo">
                   <div class="content">
                      <img src="./Assets/IMG/prensas/foto-nilton-133x300 1.png">
@@ -247,7 +248,7 @@
             <img src="./Assets/IMG/arrowleft2.svg" alt="">
          </div>
       </div>
-   </section> -->
+   </section>
 
    <!-- MARCAS PRINCIPAIS -->
 
@@ -338,6 +339,21 @@
             nextEl: ".swiper-button-next",
             prevEl: ".swiper-button-prev",
          },
+
+         breakpoints:{
+          0:{
+            slidesPerView: 1,
+            slidesPerGroup: 1,
+          },
+          520:{
+            slidesPerView: 2,
+            slidesPerGroup: 2,
+          },
+          1440:{
+            slidesPerView: 3,
+            slidesPerGroup: 3,
+          },
+      }
       });
 
       var swiper = new Swiper(".paterns", {
