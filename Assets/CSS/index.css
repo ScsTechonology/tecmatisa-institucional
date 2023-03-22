@@ -163,10 +163,14 @@
    width: 428px;
    height: 547px;
    margin-top: -130px;
-   margin-left: 7rem;
+   margin-left: 9rem;
    filter: drop-shadow(0px 0px 19px rgba(0, 0, 0, 0.2));
 }
 
+
+.card-info{
+   z-index: 10000;
+}
 
 
 .card-container {
@@ -175,13 +179,13 @@
    justify-content: space-around;
    width: 100%;
    height: 164px;
+   padding: 1rem;
 
 
    background: #FFFFFF;
    border: 1px solid rgba(235, 88, 88, 0.35);
    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.25);
    border-radius: 20px;
-   z-index: 10000;
 }
 
 .card-container-info {
@@ -202,8 +206,6 @@
 .card-container-info h3 {
    width: 210px;
    height: 48px;
-   left: 523px;
-   top: 637px;
 
    font-family: 'Montserrat';
    font-style: normal;
@@ -504,7 +506,9 @@
 
 @media screen and (max-width: 730px) {
    .nav-bar {
-      padding: 1.5rem 4rem;
+      padding: 1.5rem 2rem;
+      display: flex;
+      justify-content: space-between;
    }
 
    .nav-item {
@@ -513,12 +517,21 @@
 
    .login-button {
       display: none;
-      width: 100px;
+      width: 150px;
       margin: auto;
    }
 
    .login-button button>a {
       font-size: 15px;
+   }
+
+   .mobile-menu{
+      position: absolute;
+      background-color: #fff;
+      width: 100%;
+      border-radius: 0 0 10px 10px;
+      box-shadow: rgba(149, 157, 165, 0.2) 0px 20px  20px;
+      z-index: 200000;
    }
 
    .mobile-menu-icon {
@@ -568,35 +581,81 @@
       width: 100%;
    }
 
+   .text-header{
+      width: 100%;
+      padding: 1rem;
+   }
+
    .text-header h1{
-      font-size: 1rem;
-      text-align: center;
-      max-width: 250px;
+      font-size: 1.5rem;
+      max-width: 90%;
+      line-height: 1.4rem;
+      height: auto;
       
    }
 
    .text-header p{
-      font-size: 0.5rem;
-      max-width: 300px;
-    text-align: center;
+      font-size: 0.7rem;
+      max-width: 95%;
+      line-height: 1rem;
    }
-
+   
    .btn-info-header{
       width: 100%;
-      display: flex;
-      justify-content: center;
+      margin-top: 1.5rem;
    }
    .btn-info-header button{
       width: 150px;
    }
    .banner-image{
-      width: 90%;
+      width: 100%;
       margin-left: 0;
-      margin-top: 0;
-      border:#EB5858 solid 2px;
+      margin-top: 0; 
+      
+      display: flex;
+      justify-content: center;
    }
    
-   .banner-image img{
-      width: 90%;
+   
+   
+   .card-info{
+      width: 100%;
+      display: flex;
+      padding: 1rem;
+      justify-content: center;
+      align-items: center;
+      margin-top: -6rem;
    }
+   .card-container{
+      width: 100%;
+      height: auto;
+      margin: 0;
+      border: none;
+      box-shadow: rgba(149, 157, 165, 0.5) 0px 8px 24px;
+   }
+   
+   .card-container-info{
+      width: 100%;
+      flex-direction: column;
+      padding: 1rem 0 1rem 2rem;
+      gap: 8px;
+   }
+
+   .oferta{
+      margin: 0;
+      margin-bottom: 8px;
+   }
+   
+   .card-container-info h2{
+      font-size: 1rem;
+      max-width: 90%;
+      line-height: 1.3rem;
+   }
+
+   .card-container-info h3{
+      font-size: 1rem;
+      max-width: 150px;
+      color: #767676;
+   }
+   
 }
