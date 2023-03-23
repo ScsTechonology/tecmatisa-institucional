@@ -64,6 +64,91 @@
     font-size: 11px;
 }
 
+.mobile-menu-icon {
+    display: none;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+@media screen and (max-width: 730px) {
+
+
+    .nav-bar {
+        padding: 1.5rem 2rem;
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .nav-item {
+        display: none;
+    }
+
+    .login-button {
+        display: none;
+        width: 150px;
+        margin: auto;
+    }
+
+    .login-button {
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    .mobile-menu {
+        display: block;
+        position: absolute;
+        background-color: #fff;
+        width: 100%;
+        border-radius: 0 0 10px 10px;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 20px 20px;
+        z-index: 200000000;
+    }
+
+    .mobile-menu-icon {
+        display: block;
+    }
+
+    .mobile-menu-icon img {
+        width: 25px;
+    }
+
+    .mobile-menu-icon button {
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+    }
+
+    .mobile-menu ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 0 0 1rem;
+
+    }
+
+    .mobile-menu .nav-item {
+        display: block;
+        padding-top: 1.2rem;
+    }
+
+    .mobile-menu .login-button {
+        display: block;
+        padding: 1rem 2rem;
+    }
+
+    .mobile-menu .login-button button {
+        width: 100%;
+    }
+
+    .login-button a {
+        display: block;
+
+    }
+}
+
 
 /* Estilização do dropdown */
 
@@ -154,4 +239,11 @@
     height: 50px;
     padding-right: 15rem;
     max-width: 100px;
+}
+
+.container-footer {
+    background-color: #716c6c;
+    color: white;
+    justify-content: center;
+
 }
