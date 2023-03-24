@@ -280,10 +280,31 @@
    color: #000000;
 }
 
+
 .content-col-2 ul{
-   
+   margin-left: 1rem;
+   margin-bottom: 1rem;
 }
 
+.content-col-2 button{
+   background-color: #1E1E1E;
+   width: 124px;
+   height: 28px;
+
+   border-radius: 22px;
+   border: none;
+   transition: 0.5s ease;
+}
+
+.content-col-2 button a{
+   color: #fff;
+   text-decoration: none;
+}
+
+.content-col-2 button:hover{
+   background-color: #EB5858;
+   transform: scale(1.1);
+}
 
 @media screen and (max-width: 730px) {
    .nav-bar {
