@@ -241,9 +241,28 @@
     max-width: 100px;
 }
 
-.container-footer {
-    background-color: #716c6c;
-    color: white;
-    justify-content: center;
+ /* Footer */
+ .container-footer{
+    width: 100%;
+    margin-top: 5rem;
+    padding: 1rem;
+ }
 
-}
+ .footer-information{
+    flex-direction: column;
+ }
+
+ .institucional{
+    margin: 0;
+    justify-content: flex-start;
+    text-align: start;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+ }
+
+
+ .contato li{
+    text-align: start;
+ }
+
