@@ -163,6 +163,32 @@
     .open {
         display: block;
     }
+
+    /* Footer */
+    .container-footer {
+        width: 100%;
+        margin-top: 5rem;
+        padding: 1rem;
+    }
+
+    .footer-information {
+        flex-direction: column;
+    }
+
+    .institucional {
+        margin: 0;
+        justify-content: flex-start;
+        text-align: start;
+        align-items: flex-start;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+    }
+
+
+    .contato li {
+        text-align: start;
+    }
+
 }
 
 
@@ -495,9 +521,6 @@
 .swiper-button-prev img {
     margin-right: -20px;
     width: 25px;
-}
-
-=======
 }
 
 
