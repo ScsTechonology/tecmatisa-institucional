@@ -94,29 +94,26 @@
    display: none;
 }
 
-.header {
+/* BANNER */
+
+.Discover-our-services {
    display: flex;
    justify-content: center;
-   align-items: center;
+   padding-top: 10rem;
 
-   width: 100%;
-   height: 350px;
+   background-image: url(../IMG/new_wave_642.4136512158544.svg);
+   background-position: center;
+   background-size: cover;
+
+   height: 500px;
 }
 
-.header-banner-title{
-   display: flex;
-   flex-direction: column;
-   gap: 1rem;
-}
-.header-banner-title h1, .header-banner-title p {
-   text-align: center;
-}
-
-.text{
+.text {
    display: flex;
    gap: 1rem;
    flex-direction: column;
 }
+
 .text span {
    font-style: normal;
    font-weight: 500;
@@ -126,36 +123,183 @@
    color: #EB5858;
 }
 
-.Discover-our-services {
-   display: flex;
-   justify-content: center;
-   align-items: center;
 
-   background-color: #171717;
-   height: 250px;
-}
 
-.text p, .text h2{
+.text p, .text h2 {
    text-align: center;
 }
 
-#destaque{
+#destaque {
    color: #EB5858;
 }
 
 
-.text h2{
+.text h2 {
    color: #fff;
    align-items: center;
 }
 
-.text p{
+.text p {
    color: #fff;
    text-align: center;
    max-width: 650px;
    font-size: 1rem;
 }
 
+/* CARDS */
+
+.container-cards {
+   width: 100%;
+   padding: 6rem;
+
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+
+}
+
+
+.cards {
+   width: 350px;
+   height: 350px;
+   padding: 1rem;
+
+   background: #FFFFFF;
+   box-shadow: 0px 2px 50px rgba(0, 0, 0, 0.05);
+   border-radius: 15px 22px 22px 80px;
+}
+
+.cards2 {
+   width: 350px;
+   height: 350px;
+   padding: 1rem;
+   margin-top: 5rem;
+
+   background: #FFFFFF;
+   box-shadow: 0px 2px 50px rgba(0, 0, 0, 0.05);
+   border-radius: 15px 22px 22px 80px;
+}
+
+.content-card {
+   display: flex;
+   flex-direction: column;
+   gap: 1rem;
+}
+
+.content-card h2 {
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 24px;
+
+   color: #EB5858;
+}
+
+.container-cards p {
+   font-weight: 400;
+   font-size: 14px;
+
+
+   color: #454444;
+}
+
+
+
+.calderao-container {
+   padding: 6rem;
+   background-color: #F6F6F6;
+   height: 500px;
+}
+
+.text-calderao h2, h3 {
+   text-align: center;
+}
+
+.text-calderao h3 {
+   font-size: 1rem;
+   font-weight: 400;
+}
+
+.card-images {
+   display: flex;
+}
+
+.card-images{
+   display: flex;
+   justify-content: space-around;
+   margin-top: 2rem;
+}
+
+.image1 {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+   width: 388px;
+   height: 272px;
+   background-image: url(../IMG/Prensa-enfardadeira-vertical-225x300\ \(1\)\ 1.png);
+   background-position: center;
+   background-size: cover;
+}
+
+
+.card-images span {
+   display: block;
+   text-align: center;
+   font-weight: 800;
+   font-size: 32px;
+   line-height: 39px;
+
+   color: #FFFFFF;
+
+}
+
+.image2 {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+   width: 388px;
+   height: 272px;
+   background-image: url(../IMG/Enclausuramento-300x180\ \(1\)\ 1.png);
+   background-position: center;
+   background-size: cover;
+}
+
+.image3 {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+   width: 388px;
+   height: 272px;
+   background-image: url(../IMG/Recuperação-de-locomotivas-2-300x225\ \(1\)\ 1.png);
+   background-position: center;
+   background-size: cover;
+   transition: 0.5s ease;
+
+}
+
+.image3 p{
+   display: none;
+}
+
+
+.image3:hover span{
+   display: none;
+}
+
+.image3:hover{
+   background-color: #2b2828;
+   background-image: none;
+   border-radius: 22px;
+   padding: 1rem;
+}
+
+.image3:hover p{
+   display: block;
+   color: #F6F6F6;
+   font-size: 14px;
+}
 
 @media screen and (max-width: 730px) {
    .nav-bar {
