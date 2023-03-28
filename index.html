@@ -7,6 +7,7 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="stylesheet" href="./Assets/CSS/index.css">
    <link rel="stylesheet" href="./Assets/CSS/swiper-bundle.min.css">
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
    <title>Document</title>
 </head>
 
@@ -23,7 +24,6 @@
                <li class="nav-item"><a href="#" class="nav-link">Início</a></li>
                <li class="nav-item"><a href="/Services/services.html" class="nav-link">Serviços</a></li>
                <li class="nav-item"><a href="/produtos/produtos.html" class="nav-link"> Produtos</a></li>
-               <li class="nav-item"><a href="#" class="nav-link"> Quem Somos</a></li>
             </ul>
          </div>
          <div class="login-button">
@@ -49,7 +49,7 @@
 
 
    <!-- SEÇÃO DE TEXTO DO BANNER COM A IMAGEM DE UMA PRENSA -->
-   <section class="section-banner">
+   <section class="section-banner" data-aos="fade-up">
       <div class="text-header">
          <h1>Produção rápida e eficiente com prensas Tecmatisa </h1>
          <p>A Tecmatisa é líder em fabricação de prensas enfardadeirasContamos com equipe de Técnicos e Engenheiros
@@ -63,7 +63,7 @@
       </div>
 
       <!-- CARD EMBAIXO DA IMAGEM DO HEADER -->
-      <div class="card-info">
+      <div class="card-info" data-aos="fade-up">
          <div class="card-container">
             <div class="card-container-info">
                <h2 class="oferta">
@@ -82,7 +82,7 @@
 
 
    <!-- SECTION SOBRE AS PRENSAS -->
-   <section class="section-about">
+   <section class="section-about" data-aos="fade-up">
       <div class="image-prensas">
          <img src="./Assets/IMG/Sem Título-1 1.png" alt="">
       </div>
@@ -98,7 +98,7 @@
 
 
    <!-- CARD CONTADOR/PARCEIROS -->
-   <section class="contador-container">
+   <section class="contador-container" data-aos="fade-up">
       <div class="contador">
          <div class="title">
             <h2>
@@ -136,7 +136,7 @@
 
 
    <!-- SLIDE PRODUTO -->
-   <section class="product-container">
+   <section class="product-container" data-aos="fade-up">
       <h2>Algumas prensas que nós fabricamos</h2>
       <!-- Swiper -->
       <div class="swiper mySwiper">
@@ -255,10 +255,11 @@
 
 
    <!-- MARCAS PRINCIPAIS -->
-   <section class="princiais-marcas-logo">
+   <section class="princiais-marcas-logo" data-aos="fade-up">
       <div class="titile-marcas">
          Alguns de nossos clientes
       </div>
+
       <!-- Swiper -->
       <div class="swiper paterns">
          <div class="swiper-wrapper">
@@ -394,7 +395,7 @@
    </section>
 
    <footer>
-      <div class="container-footer">
+      <div class="container-footer" data-aos="fade-up">
          <div class="logo-footer">
             <div class="image-footer">
                <img src="./Assets/IMG/novo-logo-tecmatisa 1.png" alt="logo-tecmatisa">
@@ -430,8 +431,11 @@
    </footer>
 
    <script src="Assets/JS/index.js"></script>
-   <script src="./Assets/JS/swiper-bundle.min.js"></script>]
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   <script src="./Assets/JS/swiper-bundle.min.js"></script>
    <script>
+      AOS.init();
+
       var swiper = new Swiper(".mySwiper", {
          slidesPerView: 3,
          spaceBetween: 0,
@@ -486,5 +490,5 @@
       });
    </script>
 </body>
-
+ 
 </html>
