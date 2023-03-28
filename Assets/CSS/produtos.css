@@ -248,12 +248,12 @@
 
 #dropdown:hover #dropbtn {
     /* background-color: rgb(247, 224, 224); */
-    border-bottom: red solid 1px;
+    border-bottom: rgb(244, 98, 98) solid 1px;
 
 }
 
 #dropbtn:hover {
-    background-color: rgb(247, 224, 224);
+    /* background-color: rgb(226, 227, 232); */
     border-radius: 3px;
     transition: 0.5s ease;
 }
@@ -443,6 +443,10 @@
 .content img {
     width: 161px;
     height: 363px;
+}
+
+#triturador {
+    width: 250px;
 }
 
 .content span {
