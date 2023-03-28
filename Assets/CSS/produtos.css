@@ -23,6 +23,43 @@
 
 
 
+.scroll-to-icon {
+    margin: 0 auto;
+    width: 20px;
+    height: 30px;
+    box-shadow: inset 0 0 0 2px #0f141e;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all .25s;
+    transform: translateY(0);
+}
+
+.scroll-to-icon::after {
+    content: '';
+    width: 4px;
+    height: 6px;
+    background: #0f141e;
+    margin-left: 8px;
+    top: 8px;
+    border-radius: 2px;
+    animation-duration: 1.8s;
+    animation-iteration-count: infinite;
+    animation-name: scroll;
+    position: absolute;
+}
+
+@keyframes scroll {  
+  0% {
+    bottom: 0px;
+  }
+  50% {
+    top: 14px;
+  }
+  100% {
+    bottom: 0px;
+  }
+}
+
 
 /* NAVEGAÇÃO HEADER */
 .nav-bar {
@@ -219,7 +256,7 @@
 #dropbtn {
     display: inline-block;
     padding-left: 1.5rem;
-    padding-right: 2rem;
+    padding-right: 1.5rem;
 }
 
 .dropdown-content {
@@ -236,8 +273,22 @@
     display: block;
     text-align: left;
     color: #171717;
-    padding-top: 10px;
-    max-width: 80%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.dropdown-content a:hover {
+    border-radius: 15px;
+    background-color: #171717;
+    color: #fff;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    transition: 0.5s ease;
+
 }
 
 
@@ -258,41 +309,37 @@
     transition: 0.5s ease;
 }
 
-.dropdown-content a:hover {
-    background-color: rgb(247, 246, 246);
-    /* padding-top: 13px; */
-    transition: 0.5s ease;
-}
+
 
 .section-container {
-    padding-top: 5rem;
-}
-
-.element-section {
-    display: flex;
-    justify-content: space-between;
     width: 100%;
-    padding: 3rem 2rem 2rem 2rem;
-    height: 130px;
-    background: #FFFFFF;
-    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 20px;
+    height: 500px;
+    background-image: url(../IMG/new_wave_642.4136512158544.svg);
+    background-position: center;
+    background-size: cover;
 
+    padding-top: 13rem;
 }
 
-.element-section #element-title>h2 {
+.element-section{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem ;
+}
 
+.section-container .element-section h2{
+    color: #EB5858;
+}
+
+.element-section h2, p {
     text-align: center;
+    color: #fff;
 }
 
-.element-section #element-title2 {
-    padding-left: 6rem;
+.section-container .element-section p{
+    font-size: 1rem;
 }
 
-.element-section #element-title {
-    border-right: 1px solid #4e4d4d;
-    padding-right: 25%;
-}
 
 /* FOOTER */
 .container-footer {
@@ -396,7 +443,12 @@
 
 
 .product-container {
-    padding: 0;
+    padding: 6REM;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 5rem;
 }
 
 .product-container h2 {
