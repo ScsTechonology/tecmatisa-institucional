@@ -22,6 +22,44 @@
 }
 
 
+.scroll-to-icon {
+   margin: 0 auto;
+   width: 20px;
+   height: 30px;
+   box-shadow: inset 0 0 0 2px #0f141e;
+   border-radius: 25px;
+   cursor: pointer;
+   transition: all .25s;
+   transform: translateY(0);
+}
+
+.scroll-to-icon::after {
+   content: '';
+   width: 4px;
+   height: 6px;
+   background: #0f141e;
+   margin-left: 8px;
+   top: 8px;
+   border-radius: 2px;
+   animation-duration: 1.8s;
+   animation-iteration-count: infinite;
+   animation-name: scroll;
+   position: absolute;
+}
+
+@keyframes scroll {
+   0% {
+       bottom: 0px;
+   }
+
+   50% {
+       top: 14px;
+   }
+
+   100% {
+       bottom: 0px;
+   }
+}
 
 
 /* NAVEGAÇÃO HEADER */
