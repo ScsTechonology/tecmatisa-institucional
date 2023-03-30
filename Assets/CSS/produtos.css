@@ -99,7 +99,7 @@
 .nav-item a{
     position: relative;
 }
-.nav-item a::after {
+.nav-item .nav-link::after {
     width: 0;
     content: '';
     height: 2px;
@@ -485,7 +485,6 @@ p {
     font-weight: 700;
     font-size: 32px;
     line-height: 39px;
-
     color: #000000;
 }
 
