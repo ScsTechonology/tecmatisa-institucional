@@ -715,7 +715,12 @@ body {
    background-size: 15px;
    background-repeat: no-repeat;
    border: none;
+   transition: 0.5s ease;
    cursor: pointer;
+}
+
+.image-input:hover{
+   transform: scale(1.1);
 }
 
 .input-email {
