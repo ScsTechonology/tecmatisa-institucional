@@ -27,7 +27,9 @@ body {
    height: 100%;
 }
 
-/* NAVEGAÇÃO HEADER */
+
+/* ============================= NAVBAR =============================*/
+
 .nav-bar {
    display: flex;
    justify-content: space-between;
@@ -96,10 +98,12 @@ body {
 .mobile-menu {
    display: none;
 }
+/* ============================= END NAVBAR =============================*/
 
 
 
-/* SEÇÃO DO BANNER */
+
+/* ============================= HEADER CONTAINER =============================*/
 .section-banner {
    display: flex;
    align-items: center;
@@ -236,6 +240,12 @@ body {
    background-color: #EB5858;
    transform: scale(1.1);
 }
+/* ============================= END HEADER CONTAINER =============================*/
+
+
+
+
+/* ============================= ABOUT US =============================*/
 
 .section-about {
    display: flex;
@@ -285,9 +295,12 @@ body {
    color: #4B4B4B;
 }
 
+/* ============================= END ABOUT US =============================*/
 
 
 
+
+/* ============================= CONTAINER COUNTER =============================*/
 .contador-container {
    padding: 6rem;
 }
@@ -352,6 +365,13 @@ body {
    margin-top: 5rem;
 }
 
+/* ============================= END CONTAINER COUNTER =============================*/
+
+
+
+
+
+/* ============================= PRODUCT CAROUSEL =============================*/
 .product-container {
    padding: 6rem;
 }
@@ -484,6 +504,13 @@ body {
    width: 25px;
 }
 
+/* ============================= END PRODUCT CAROUSEL =============================*/
+
+
+
+
+/* ============================= OUT PARTNERS =============================*/
+
 .titile-marcas {
    text-align: center;
    font-family: 'Montserrat';
@@ -521,8 +548,15 @@ body {
    width: 150px;
 }
 
+/* ============================= END OUT PARTNERS =============================*/
 
-/* FOOTER */
+
+
+
+
+
+
+/* ============================= FOOTER ============================= */
 .container-footer {
    background-color: #171717;
    height: auto;
@@ -736,8 +770,12 @@ input:focus{
    outline-color: #EB5858;
 }
 
+/* ============================= END FOOTER ============================= */
+
 
 @media screen and (max-width: 730px) {
+
+   /* ============================= MENU HAMBURGUER */
    .nav-bar {
       padding: 1.5rem 2rem;
       display: flex;
@@ -807,7 +845,11 @@ input:focus{
    }
 }
 
+
+/* ============================= RESPONSIVE MOBILE ============================= */
 @media screen and (max-width: 730px) {
+
+   /* ============================= HEADER ============================= */
    .section-banner {
       padding: 0;
       flex-wrap: wrap;
@@ -852,7 +894,11 @@ input:focus{
    }
 
 
+   /* ============================= END HEADER ============================= */
 
+
+
+   /* ============================= CARD INFO HEADER ============================= */
    .card-info {
       width: 100%;
       display: flex;
@@ -894,11 +940,19 @@ input:focus{
       color: #767676;
    }
 
+   /* ============================= END CARD INFO HEADER ============================= */
+
+
+   /* ============================= ABOUT US ============================= */
    .section-about {
       display: none;
 
    }
 
+
+
+
+   /* ============================= CONTAINER COUNTER============================= */
 
    .contador-container {
       display: none;
@@ -939,7 +993,7 @@ input:focus{
       width: 70px;
    }
 
-   /* Footer */
+   /* ============================= FOOTER =============================*/
    .container-footer {
       width: 100%;
       margin-top: 5rem;
