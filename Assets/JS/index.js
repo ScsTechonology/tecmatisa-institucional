@@ -5,7 +5,7 @@ function menuShow() {
         document.querySelector('.icon').src = "../Assets/IMG/menu_white_36dp.svg";
     } else {
         menuMobile.classList.add('open');
-        document.querySelector('.icon').src = "../Assets/IMG/close_white_36dp.svg";
+        document.querySelector('.icon').src = "../Assets/IMG/menu-hamburguer-btn/close_white_36dp.svg";
     }
 }
 
