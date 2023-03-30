@@ -7,6 +7,7 @@
    box-sizing: border-box;
 }
 
+
 ::-webkit-scrollbar {
    width: 10px;
 }
@@ -30,11 +31,23 @@ body {
 
 /* ============================= NAVBAR =============================*/
 
+nav{
+   width: 100vw;
+   height: 5rem;
+   z-index: 1202021;
+   position: fixed;
+}
+
+.window-scroll{
+   background-color: #ffffff;
+   box-shadow: rgba(0, 0, 0, 0.1) 0px 7px 29px 0px;
+}
 .nav-bar {
    display: flex;
    justify-content: space-between;
    align-items: center;
    padding: 1.5rem 6rem;
+
 }
 
 .logo {
@@ -599,10 +612,7 @@ body {
    border-bottom: 1px solid #b9b9b9;
 }
 
-.contact {
-   display: flex;
-   align-items: center;
-}
+
 
 .contact img {
    width: 80px;
@@ -773,6 +783,7 @@ input:focus{
 /* ============================= END FOOTER ============================= */
 
 
+
 @media screen and (max-width: 730px) {
 
    /* ============================= MENU HAMBURGUER */
@@ -803,6 +814,7 @@ input:focus{
       border-radius: 0 0 10px 10px;
       box-shadow: rgba(149, 157, 165, 0.2) 0px 20px 20px;
       z-index: 200000;
+      top: 4rem;
    }
 
    .mobile-menu-icon {
@@ -854,6 +866,8 @@ input:focus{
       padding: 0;
       flex-wrap: wrap;
       width: 100%;
+      top: 5rem;
+      position: relative;
    }
 
    .text-header {
@@ -959,8 +973,10 @@ input:focus{
    }
 
    .product-container {
+      top: 7rem;
       padding: 1rem;
       width: 100%;
+      position: relative;
    }
 
    .product-container {
@@ -987,6 +1003,8 @@ input:focus{
 
    .princiais-marcas-logo {
       padding: 1rem;
+      position: relative;
+      top: 10rem;
    }
 
    .princiais-marcas-logo img {
@@ -995,27 +1013,38 @@ input:focus{
 
    /* ============================= FOOTER =============================*/
    .container-footer {
+      position: relative;
+      top: 10rem;
       width: 100%;
       margin-top: 5rem;
       padding: 1rem;
    }
 
-   .footer-information {
+   .contact-us{
       flex-direction: column;
-   }
-
-   .institucional {
       margin: 0;
-      justify-content: flex-start;
-      text-align: start;
-      align-items: flex-start;
-      margin-bottom: 1rem;
-      margin-top: 1rem;
+      gap: 2rem;
+      justify-content: center;
+
    }
 
 
-   .contato li {
-      text-align: start;
+   .links{
+      padding-top: 2rem;
    }
+
+   .follow-up{
+      padding-top: 2rem;
+   }
+   .info-links-form{
+      flex-direction: column;
+      padding: 0;
+   }
+
+   .follow-social{
+      padding: 0;
+
+   }
+
 
 }
