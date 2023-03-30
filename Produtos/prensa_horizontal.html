@@ -14,18 +14,52 @@
 
     <style>
         .contador-container {
+
             padding: 3rem;
+            justify-content: space-around;
         }
 
         .contador {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
             width: 100%;
-            height: 450px;
+            height: 350px;
             padding: 2rem;
-
             background: #FFFFFF;
             border: 1px solid rgba(235, 88, 88, 0.43);
             box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.25);
             border-radius: 20px;
+        }
+
+
+        .section-container {
+
+            padding-top: 15rem;
+        }
+
+        .imagem {
+            width: 150px;
+            height: 240px;
+
+        }
+
+        .text-prensa {
+            padding-left: 15px;
+            width: 750px;
+            margin-right: 15rem;
+        }
+
+        .text-prensa p {
+            text-align: justify;
+            color: black;
+        }
+
+        .text-prensa h1 {
+
+            padding-bottom: 15px;
+            color: rgb(248, 129, 129);
+            text-align: center;
         }
     </style>
 
@@ -83,11 +117,21 @@
         <div class="scroll-to-icon">
 
         </div>
+
     </section>
 </header>
 
 <!-- CARD CONTADOR/PARCEIROS -->
 <section class="contador-container" data-aos="fade-up">
     <div class="contador">
-   <div class="prensas"></div>
+        <div class="prensas">
+            <img class="imagem" src="/Assets/IMG/foto-nilton.png" alt="">
         </div>
+        <div class="text-prensa">
+            <h1>Prensa Horizontal</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda quibusdam earum officia sed soluta
+                voluptatibus explicabo vitae tenetur eligendi minus aliquid, veniam itaque voluptas iste veritatis
+                doloremque aliquam similique officiis.</p>
+        </div>
+    </div>
+</section>
