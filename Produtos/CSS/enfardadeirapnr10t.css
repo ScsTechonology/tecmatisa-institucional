@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+   padding: 0;
+   margin: 0;
+   font-family: 'Montserrat', sans-serif;
+   box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+   width: 10px;
+}
+
+::-webkit-scrollbar-track {
+   background-color: #ff8282;
+   border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+   background-color: #686868;
+   border-radius: 30px;
+}
+
+ul{
+   list-style: none;
+}
+li{
+   padding: 0.3rem;
+}
+
+
+
+
+/* ============================= NAVBAR =============================*/
+
+nav {
+   width: 100vw;
+   height: 5rem;
+   z-index: 11;
+   position: fixed;
+}
+
+.window-scroll {
+   background-color: #ffffff;
+   box-shadow: rgba(0, 0, 0, 0.1) 0px 7px 29px 0px;
+}
+
+.nav-bar {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 1.5rem 6rem;
+
+}
+
+.logo {
+   display: flex;
+   align-items: center;
+}
+
+.logo img {
+   width: 150px;
+}
+
+
+.nav-list {
+   display: flex;
+   align-items: center;
+}
+
+.nav-list ul {
+   display: flex;
+   justify-content: center;
+   list-style: none;
+}
+
+.nav-item {
+   margin: 0 15px;
+}
+
+.nav-link {
+   text-decoration: none;
+   font-size: 18px;
+   color: #171717;
+   font-weight: 600;
+}
+
+.login-button button {
+   border: none;
+   width: 100px;
+   padding: .5rem;
+   border-radius: 25px;
+   background-color: #171717;
+
+   transition: 0.5s ease;
+}
+
+.login-button button a {
+   text-decoration: none;
+   color: #fff;
+   font-weight: 500;
+   font-size: 11px;
+}
+
+.login-button button:hover {
+   background-color: #EB5858;
+   transform: scale(1.1);
+}
+
+.mobile-menu-icon {
+   display: none;
+}
+
+.mobile-menu {
+   display: none;
+}
+
+/* ============================= END NAVBAR =============================*/
+
+
+
+
+
+/* =============================    INFORMATION PRODUCT =============================*/
+
+.information-product{
+   position: relative;
+   padding-left: 6rem;
+   padding-right: 6rem;
+   top: 7rem;
+}
+
+
+.article__container{
+   display: flex;
+   flex-direction: column;
+   gap: 1rem;
+}
+
+.container__information{
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+}
+
+.information{
+   display: flex;
+   align-items: center;
+   padding: 2rem;
+   gap: 1.5rem;
+   height: fit-content;
+   border: 2px solid #171717;
+   border-radius: 22px;
+
+   cursor: pointer;
+
+}
+
+.information__answer{
+   display: flex;
+   flex-direction: column;
+   gap: 1rem;
+}
+
+.information p, ul{
+   display: none;
+}
+
+.information__answer h2, p, li{
+   color: #3a3636;
+}
+
+.information.open ul {
+   display: block;
+}
+
+.image img{
+   width: 250px;
+}
+
+.info__p{
+   max-width: 850px;
+
+}
+
+/* ============================= END INFORMATION PRODUCT =============================*/
+
+
+
+
+
+/* ============================= FORMULARIO DE ORÇAMENTO DAS PRENSAS =============================*/
+
+.form__pag__product{
+   margin-top: 5rem;
+   padding: 0 9rem;
+
+   display: flex;
+   flex-direction: column;
+
+}
+
+.contact__form{
+   display: flex;
+}
+@media screen and (max-width: 730px) {
+
+   /* ============================= MENU HAMBURGUER ============================= */
+   .nav-bar {
+      padding: 1.5rem 2rem;
+      display: flex;
+      justify-content: space-between;
+   }
+
+   .nav-item {
+      display: none;
+   }
+
+   .login-button {
+      display: none;
+      width: 150px;
+      margin: auto;
+   }
+
+   .login-button button>a {
+      font-size: 15px;
+   }
+
+   .mobile-menu {
+      position: absolute;
+      background-color: #fff;
+      width: 100%;
+      border-radius: 0 0 10px 10px;
+      box-shadow: rgba(149, 157, 165, 0.2) 0px 20px 20px;
+      z-index: 200000;
+      top: 4rem;
+   }
+
+   .mobile-menu-icon {
+      display: block;
+   }
+
+   .mobile-menu-icon img {
+      width: 25px;
+   }
+
+   .mobile-menu-icon button {
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+   }
+
+   .mobile-menu ul {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      padding-bottom: 1rem;
+   }
+
+   .mobile-menu .nav-item {
+      display: block;
+      padding-top: 1.2rem;
+   }
+
+   .mobile-menu .login-button {
+      display: block;
+      padding: 1rem 2rem;
+   }
+
+   .mobile-menu .login-button button {
+      width: 100%;
+   }
+
+   .open {
+      display: block;
+   }
+
+   
+   
+}
+
+
+
+
+

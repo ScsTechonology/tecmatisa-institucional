@@ -16,3 +16,25 @@ window.addEventListener('scroll', () => {
 })
 
 
+
+// show/hide information answer
+
+const information = document.querySelectorAll('.information');
+
+information.forEach(information => {
+    information.addEventListener('click', () => {
+        information.classList.toggle('open');
+
+       // change icon
+
+       const icon = information.querySelector('.information__icon i');
+        if(icon.className === 'uil uil-plus'){
+            icon.className = 'uil uil-minus'
+        }else{
+            icon.className = 'uil uil-plus';
+        }
+
+    })
+})
+
+

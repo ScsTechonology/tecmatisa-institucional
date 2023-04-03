@@ -711,4 +711,22 @@ input:focus{
       padding: 0;
 
    }
+
+   .calderao-container{
+      padding: 0;
+   }
+
+   .container-cards{
+      padding: 0;
+   }
+
+   .card-images{
+      flex-direction: column;
+
+   }
+
+
+   .container-cards img{
+      
+   }
 }
