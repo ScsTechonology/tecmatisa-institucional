@@ -210,6 +210,11 @@ nav {
 /* ============================= END ANIMATION SCROLL MOUSE =============================*/
 
 
+
+
+/* ============================= CONTAINER CARD PRODUCT =============================*/
+
+
 .container__product {
    width: 100%;
    padding: 1rem 6rem;
@@ -293,6 +298,12 @@ nav {
 .btn__card:hover{
    background-color: var(--color-destaque);
 }
+
+/* ============================= END CONTAINER CARD PRODUCT =============================*/
+
+
+
+
 
 /* ============================= FOOTER ============================= */
 .container-footer {
