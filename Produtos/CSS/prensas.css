@@ -204,8 +204,57 @@ nav {
 }
 
 
+.image__small img {
+   width: 550px;
+}
+
 
 /* ============================= END INFORMATION PRODUCT =============================*/
+
+
+
+
+
+
+
+/* ============================= TABLE PRODUCT MODELS =============================*/
+
+table{
+   border-collapse: collapse;
+}
+
+caption {
+   font-size: 1.2rem;
+   font-weight: bold;
+   padding: 20px;
+}
+
+
+th, td{
+   border: solid 1px #000;
+   padding: 30px;
+   font-size: 0.8rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ============================= END TABLE PRODUCT MODELS =============================*/
+
+
+
+
+
+
 
 
 
@@ -301,7 +350,7 @@ nav {
 }
 
 .btn__card:hover {
-   background-color: var(--color-destaque);
+   background-color: #EB5858;
 }
 
 /* ============================= END CONTAINER CARD PRODUCT =============================*/

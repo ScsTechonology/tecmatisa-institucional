@@ -29,7 +29,8 @@ information.forEach((information) => {
 
     // change icon
 
-    const icon = information.querySelector(".information__icon i");
+    let icon = information.querySelector(".information__icon i");
+    
     if (icon.className === "uil uil-plus") {
       icon.className = "uil uil-minus";
     } else {
