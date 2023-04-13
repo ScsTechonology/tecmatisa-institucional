@@ -166,11 +166,14 @@ nav {
    gap: 1rem;
 }
 
-.information p, ul {
+.information p,
+ul {
    display: none;
 }
 
-.information__answer h2, p, li {
+.information__answer h2,
+p,
+li {
    color: #3a3636;
 }
 
@@ -219,7 +222,7 @@ nav {
 
 /* ============================= TABLE PRODUCT MODELS =============================*/
 
-table{
+table {
    border-collapse: collapse;
 }
 
@@ -230,7 +233,8 @@ caption {
 }
 
 
-th, td{
+th,
+td {
    border: solid 1px #000;
    padding: 30px;
    font-size: 0.8rem;
@@ -264,7 +268,7 @@ th, td{
    padding: 6rem 6rem 2rem;
 }
 
-#image__small img{
+#image__small img {
    width: 350px;
 }
 
@@ -774,7 +778,6 @@ input:focus {
    .mobile-menu .login-button button {
       width: 100%;
    }
-
 
 
 }

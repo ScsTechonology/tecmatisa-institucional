@@ -154,13 +154,14 @@ nav {
    gap: 0.5rem
 }
 
-.container__header h1{
+.container__header h1 {
    text-align: center;
 }
 
-.container__header h2{
+.container__header h2 {
    text-align: center;
 }
+
 /* ============================= END CONTAINER HEADER =============================*/
 
 
@@ -249,10 +250,10 @@ nav {
    flex-direction: column;
    align-items: center;
 
-   
+
 }
 
-.content__card img{
+.content__card img {
    width: 80%;
 }
 
@@ -287,7 +288,7 @@ nav {
    display: flex;
    align-items: center;
    justify-content: center;
-   padding-top: 5px ;
+   padding-top: 5px;
    border-radius: 50%;
    width: 40px;
    height: 40px;
@@ -295,7 +296,7 @@ nav {
    transition: 0.5s ease;
 }
 
-.btn__card:hover{
+.btn__card:hover {
    background-color: var(--color-destaque);
 }
 
@@ -349,7 +350,7 @@ nav {
    border-bottom: 1px solid #b9b9b9;
 }
 
-.contact{
+.contact {
    display: flex;
 }
 
@@ -397,7 +398,7 @@ nav {
    font-size: 13px;
 }
 
-.links{
+.links {
    margin-right: 4g5rem;
 }
 
@@ -502,7 +503,7 @@ nav {
    cursor: pointer;
 }
 
-.image-input:hover{
+.image-input:hover {
    transform: scale(1.1);
 }
 
@@ -515,11 +516,15 @@ nav {
    border: none;
 }
 
-input:focus{
+input:focus {
    outline-color: #EB5858;
 }
 
 /* ============================= END FOOTER ============================= */
+
+
+
+/* ================= MOBILE RESPONSIVE =================== */
 
 
 @media screen and (max-width: 730px) {
@@ -594,14 +599,14 @@ input:focus{
       display: block;
    }
 
-   /* ================ MOBILE RESPONSIVE =================== */
 
+   /* ==========================CARD PRODUCT======================= */
 
-}
-
-/* ============================= RESPONSIVE MOBILE ============================= */
-@media screen and (max-width: 730px) {
-
+   .cards__product {
+      margin: 25px;
+      width: 95%;
+      max-width: 350px;
+   }
 
 
    /*=========================== FOOTER =============================*/
@@ -613,7 +618,7 @@ input:focus{
       padding: 1rem;
    }
 
-   .contact__us{
+   .contact__us {
       flex-direction: column;
       margin: 0;
       gap: 2rem;
@@ -621,24 +626,25 @@ input:focus{
 
    }
 
-   .container__product{
+   .container__product {
       padding: 0;
    }
 
 
-   .links{
+   .links {
       padding-top: 2rem;
    }
 
-   .follow-up{
+   .follow-up {
       padding-top: 2rem;
    }
-   .info-links-form{
+
+   .info-links-form {
       flex-direction: column;
       padding: 0;
    }
 
-   .follow-social{
+   .follow-social {
       padding: 0;
 
    }
