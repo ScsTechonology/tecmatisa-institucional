@@ -1,48 +1,124 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../Assets/CSS/contato.css">
-    <title>Document</title>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="../Assets/CSS/contato.css">
+   <link rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"
+      integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+   <title>Document</title>
 </head>
+
 <body>
-     <!-- NAVBAR -->
+   <!-- NAVBAR -->
    <header>
-    <nav class="nav-bar">
-       <div class="logo">
-          <img src="../Assets/IMG/novo-logo-tecmatisa 1.png">
-       </div>
-       <div class="nav-list">
-          <ul>
-             <li class="nav-item"><a href="../index.html" class="nav-link">Início</a></li>
-             <li class="nav-item"><a href="/Services/services.html" class="nav-link">Serviços</a></li>
-             <li class="nav-item"><a href="/produtos/produtos.html" class="nav-link"> Produtos</a></li>
-             <li class="nav-item"><a href="#" class="nav-link"> Quem Somos</a></li>
-          </ul>
-       </div>
-       <div class="login-button">
-          <button><a href="../Contato/contato.html">Contato</a></button>
-       </div>
+      <nav class="nav-bar">
+         <div class="logo">
+            <img src="../Assets/IMG/novo-logo-tecmatisa 1.png">
+         </div>
+         <div class="nav-list">
+            <ul>
+               <li class="nav-item"><a href="../index.html" class="nav-link">Início</a></li>
+               <li class="nav-item"><a href="/Services/services.html" class="nav-link">Serviços</a></li>
+               <li class="nav-item"><a href="/produtos/produtos.html" class="nav-link"> Produtos</a></li>
+               <li class="nav-item"><a href="#" class="nav-link"> Quem Somos</a></li>
+            </ul>
+         </div>
+         <div class="login-button">
+            <button><a href="../Contato/contato.html">Contato</a></button>
+         </div>
 
-       <div class="mobile-menu-icon">
-          <button onclick="menuShow()"><img class="icon" src="../Assets/IMG/menu_white_36dp.svg" alt=""></button>
-       </div>
-    </nav>
-    <div class="mobile-menu">
-       <ul>
-          <li class="nav-item"><a href="../index.html" class="nav-link">Início</a></li>
-          <li class="nav-item"><a href="/Services/services.html" class="nav-link">Serviços</a></li>
-          <li class="nav-item"><a href="/produtos/produtos.html" class="nav-link">Produtos</a></li>
-       </ul>
+         <div class="mobile-menu-icon">
+            <button onclick="menuShow()"><img class="icon" src="../Assets/IMG/menu_white_36dp.svg" alt=""></button>
+         </div>
+      </nav>
+      <div class="mobile-menu">
+         <ul>
+            <li class="nav-item"><a href="../index.html" class="nav-link">Início</a></li>
+            <li class="nav-item"><a href="/Services/services.html" class="nav-link">Serviços</a></li>
+            <li class="nav-item"><a href="/produtos/produtos.html" class="nav-link">Produtos</a></li>
+         </ul>
 
-       <div class="login-button">
-          <button><a href="#">Contato</a></button>
-       </div>
-    </div>
- </header>
+         <div class="login-button">
+            <button><a href="#">Contato</a></button>
+         </div>
+      </div>
+   </header>
 
-    <script src="../Assets/JS/index.js"></script>
+   <section class="header">
+      <div class="container__header">
+         <h1>Tecmatisa</h1>
+         <h2>Tecnologia em equipamentos para reciclagem</h2>
+      </div>
+   </section>
+
+   <!-- ========================================================== -->
+   <section class="contact">
+      <div class="content">
+         <h2>Fale com a Tecmatisa</h2>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore blanditiis consectetur, sint provident
+            nam
+            adipisci facere modi assumenda optio ab ratione ad eos. Sapiente, provident cumque iste doloremque
+            distinctio
+            rerum!</p>
+      </div>
+      <div class="container">
+         <div class="contactInfo">
+            <div class="box">
+               <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i>
+                  <div class="text">
+                     <h3>Endereço</h3>
+                     <p>Rua bairro cidade estado</p>
+                  </div>
+               </div>
+               <div class="box">
+                  <div class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i>
+
+                     <div class="text">
+                        <h3>Email</h3>
+                        <p>contato@tecmatisa.com.br</p>
+                     </div>
+                  </div>
+                  <div class="box">
+                     <div class="icon"><i class="fa fa-phone" aria-hidden="true"></i>
+
+                        <div class="text">
+                           <h3>Telefone</h3>
+                           <p>99 999999</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="contacForm">
+            <form action="">
+               <h2>Envie uma mensagem</h2>
+               <div class="iputBox">
+                  <input type="text" name="" required="required">
+                  <span>Seu nome</span>
+               </div>
+               <div class="iputBox">
+                  <input type="text" name="" required="required">
+                  <span>Seu Email</span>
+               </div>
+               <div class="iputBox">
+                  <textarea name="" id="" cols="30" rows="10"></textarea>
+                  <span>Sua mensagem</span>
+               </div>
+               <div class="iputBox">
+                  <input type="submit" name="" value="Enviar">
+               </div>
+            </form>
+         </div>
+      </div>
+   </section>
+
+
+   <script src="../Assets/JS/index.js"></script>
 </body>
+
 </html>
