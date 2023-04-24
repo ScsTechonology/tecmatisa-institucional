@@ -265,11 +265,26 @@
 }
 
 @media (max-width: 991px) {
+   .content p{
+      margin-top: 3rem;
+   }
    .contact {
       padding: 50px;
    }
-   .container{
+
+   .container {
       flex-direction: column;
+   }
+
+   .container .contactInfo {
+      margin-bottom: 40px;
+   }
+
+   .container .contactInfo {
+      width: 100%;
+   }
+   .container .contactForm{
+      width: 100%;
    }
 }
 
