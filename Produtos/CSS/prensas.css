@@ -779,5 +779,47 @@ input:focus {
       width: 100%;
    }
 
+   /*=========================== FOOTER =============================*/
+   .container-footer {
+      position: relative;
+      top: 10rem;
+      width: 100%;
+      margin-top: 5rem;
+      padding: 1rem;
+   }
+
+   .contact__us {
+      flex-direction: column;
+      margin: 0;
+      gap: 2rem;
+      justify-content: center;
+
+   }
+
+   .container__product {
+      padding: 0;
+   }
+
+
+   .links {
+      padding-top: 2rem;
+   }
+
+   .follow-up {
+      padding-top: 2rem;
+   }
+
+   .info-links-form {
+      flex-direction: column;
+      padding: 0;
+   }
+
+   .follow-social {
+      padding: 0;
+
+      /*===========================END FOOTER =============================*/
+
+   }
+
 
 }
