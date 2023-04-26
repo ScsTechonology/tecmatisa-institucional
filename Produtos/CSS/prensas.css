@@ -780,23 +780,61 @@ input:focus {
    }
 
 
-   /* ==========================SECTION INFORMATION================= */
+   /*==========================SECTION INFORMATION================= */
 
    .information-product {
       margin: 0;
-      padding: 0 5 5 5;
+      padding: 0;
       display: flex;
       align-items: center;
+      justify-content: center;
       width: 100%;
    }
-   .information-product .information{
+
+   .container__information .article__container p {
+      margin-top: 15px;
+      margin-bottom: 15px;
+   }
+
+   .container__information .image img {
+      margin-top: 2rem;
+      width: 240px;
+   }
+
+   .information-product .information {
       width: 100%;
    }
 
    .information-product .container__information {
-   
       flex-direction: column;
+      margin: 1.5rem;
    }
+
+   .product {
+      margin: 0 3 0 3;
+   }
+
+   .container__product {
+      width: 100%;
+      justify-content: center;
+   }
+
+   .product .title {
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      margin-bottom: 10px;
+   }
+
+   .product .title h2 {
+      max-width: 400px;
+   }
+
+   .container__product {
+      align-items: center;
+   }
+
+   /*========================END SECTION INFORMATION=================*/
 
 
    /*=========================== FOOTER =============================*/
