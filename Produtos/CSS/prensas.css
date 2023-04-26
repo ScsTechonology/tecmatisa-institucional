@@ -125,7 +125,6 @@ nav {
 /* =============================    INFORMATION PRODUCT =============================*/
 
 .information-product {
-
    padding-left: 6rem;
    padding-right: 6rem;
    padding-top: 7rem;
@@ -285,7 +284,7 @@ td {
 }
 
 .cards__product {
-   padding: 2rem;
+   padding: 2rem 3.5rem 2rem 3.5rem;
    display: flex;
    flex-direction: column;
 
@@ -713,7 +712,7 @@ input:focus {
 
 @media screen and (max-width: 730px) {
 
-   /* ============================= MENU HAMBURGUER ============================= */
+   /* ============================= MENU HAMBURGUER */
    .nav-bar {
       padding: 1.5rem 2rem;
       display: flex;
@@ -779,10 +778,17 @@ input:focus {
       width: 100%;
    }
 
+   .open {
+      display: block;
+   }
+
+   /* ===================END MENU HAMBURGUER===================== */
+
 
    /*==========================SECTION INFORMATION================= */
 
    .information-product {
+      position: relative;
       margin: 0;
       padding: 0;
       display: flex;
@@ -791,14 +797,18 @@ input:focus {
       width: 100%;
    }
 
+   .container__information .article__container {
+      margin-top: 6rem;
+   }
+
    .container__information .article__container p {
-      margin-top: 15px;
-      margin-bottom: 15px;
+      margin: 2rem 0 2rem 0;
    }
 
    .container__information .image img {
-      margin-top: 2rem;
+      margin-top: 3rem;
       width: 240px;
+      height: 470px;
    }
 
    .information-product .information {
@@ -837,7 +847,46 @@ input:focus {
    /*========================END SECTION INFORMATION=================*/
 
 
-   /*=========================== FOOTER =============================*/
+
+   /* =======================CONTATO FORM=================== */
+
+   #section_form {
+      margin-top:100px;
+      width: 100%;
+      padding: 2rem;
+   }
+
+   .form__pag__product {
+      display: flex;
+      flex-direction: column;
+      padding: 0;
+      width: 100%;
+
+   }
+
+   .form__pag__product .name input {
+      width: 100%;
+      margin-left: 0;
+      padding-right: 3rem;
+   }
+
+   #contact_form {
+      width: 100%;
+
+   }
+
+   .container__dropdown input {
+      width: 100%;
+   }
+
+   .container__dropdown button {
+      width: 100%;
+   }
+
+   /* =======================END CONTATO FORM=================== */
+
+
+   /* ============================= FOOTER =============================*/
    .container-footer {
       position: relative;
       top: 10rem;
@@ -846,16 +895,12 @@ input:focus {
       padding: 1rem;
    }
 
-   .contact__us {
+   .contact-us {
       flex-direction: column;
       margin: 0;
       gap: 2rem;
       justify-content: center;
 
-   }
-
-   .container__product {
-      padding: 0;
    }
 
 
@@ -875,9 +920,9 @@ input:focus {
    .follow-social {
       padding: 0;
 
-      /*===========================END FOOTER =============================*/
-
    }
+
+
 
 
 }
