@@ -3,11 +3,11 @@ function menuShow() {
   if (menuMobile.classList.contains("open")) {
     menuMobile.classList.remove("open");
     document.querySelector(".icon").src =
-      "../Assets/IMG/menu-hamburguer-btn/menu_white_36dp.svg";
+      "../../Assets/IMG/menu-hamburguer-btn/menu_white_36dp.svg";
   } else {
     menuMobile.classList.add("open");
     document.querySelector(".icon").src =
-      "../Assets/IMG/menu-hamburguer-btn/close_white_36dp.svg";
+      "../../Assets/IMG/menu-hamburguer-btn/close_white_36dp.svg";
   }
 }
 

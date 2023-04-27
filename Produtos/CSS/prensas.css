@@ -141,7 +141,6 @@ nav {
 .container__information {
    display: flex;
    align-items: center;
-
 }
 
 .information {
@@ -273,24 +272,22 @@ td {
 
 
 .container__product {
+
    width: 100%;
    padding: 1rem 6rem;
    gap: 5rem;
-
-
    display: flex;
    justify-content: space-between;
    flex-wrap: wrap;
+
 }
 
 .cards__product {
    padding: 2rem 3.5rem 2rem 3.5rem;
    display: flex;
    flex-direction: column;
-
    width: 354px;
    height: 440px;
-
    background: #FFFFFF;
    box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.14);
    border-radius: 22px;
@@ -704,6 +701,11 @@ td {
    border: none;
 }
 
+
+.table-section {
+   overflow: auto;
+}
+
 input:focus {
    outline-color: #EB5858;
 }
@@ -782,6 +784,7 @@ input:focus {
       display: block;
    }
 
+
    /* ===================END MENU HAMBURGUER===================== */
 
 
@@ -797,12 +800,15 @@ input:focus {
       width: 100%;
    }
 
+
+
    .container__information .article__container {
       margin-top: 6rem;
    }
 
    .container__information .article__container p {
       margin: 2rem 0 2rem 0;
+
    }
 
    .container__information .image img {
@@ -820,17 +826,17 @@ input:focus {
       margin: 1.5rem;
    }
 
-   .product {
-      margin: 0 3 0 3;
-   }
+
 
    .container__product {
       width: 100%;
       justify-content: center;
+      align-items: center;
+      padding: 1rem;
    }
 
    .product .title {
-      padding: 0;
+      padding: 1rem;
       display: flex;
       justify-content: center;
       margin-bottom: 10px;
@@ -851,7 +857,7 @@ input:focus {
    /* =======================CONTATO FORM=================== */
 
    #section_form {
-      margin-top:100px;
+      margin-top: 100px;
       width: 100%;
       padding: 2rem;
    }
@@ -921,6 +927,8 @@ input:focus {
       padding: 0;
 
    }
+
+
 
 
 
