@@ -13,7 +13,9 @@
 </head>
 
 <body>
+
    <!-- ============================= NAVBAR ============================= !-->
+
    <header class="nav-header">
       <nav class="nav-bar">
          <div class="logo">
@@ -73,9 +75,10 @@
 
             </div>
 
+
             <div class="table-section">
+               <caption>Modelos de prensas</caption>
                <table>
-                  <caption>Modelos de prensas</caption>
                   <thead class="color__thead">
                      <th>Modelo</th>
                      <th>Força (Ton)</th>
@@ -86,7 +89,7 @@
                      <th>Potência do Motor (CV)</th>
                   </thead>
                   <tbody>
-                     <!-- LINE 1 -->
+                     <!--LINE 1 -->
                      <tr>
                         <td>Y81F-63</td>
                         <td>63</td>
@@ -217,61 +220,51 @@
    <!-- ============================= END TABLE PRODUTO ============================= -->
 
 
-   <!-- ============================= FORM BUGET ============================= -->
+  <!-- ============================= FORM BUGET ============================= -->
 
-   <section id="orçamento">
-      <div class="container__left">
-         <p>
-            Nós, da Tecmatisa, temos a honra de agradecer aos nossos clientes pelo voto de confiança em nossas prensas
-            para materiais de reciclagem. Sabemos que o sucesso de nosso negócio é possível graças à parceria de cada um
-            de vocês. É por isso que estamos comprometidos em fornecer não apenas produtos de alta qualidade, mas também
-            um atendimento excepcional. Nossa equipe está constantemente em busca de inovação e melhoria para atender às
-            necessidades de nossos clientes da melhor forma possível. Queremos que vocês saibam que a satisfação de
-            vocês é nossa maior prioridade.
-         </p>
+  <section id="section_form">
+   <form method="post" action="https://formspree.io/f/mqkoyjqv" class="form__pag__product">
+      <h2>Faça seu orçamento</h2>
+      <div class="name">
+         <input type="text" name="First Name" placeholder="nome" required>
+         <input type="text" name="Last Name" placeholder="sobrenome" required>
       </div>
-      <form method="post" action="https://formspree.io/f/mqkoyjqv" class="form__pag__product">
-         <h2>Faça seu orçamento</h2>
-         <div class="name">
-            <input type="text" name="First Name" placeholder="nome" required>
-            <input type="text" name="Last Name" placeholder="sobrenome" required>
-         </div>
-         <div class="contact__form">
-            <input type="email" name="e-mail" placeholder="seu melhor e-mail">
-            <input type="tel" name="tel" placeholder="seu whatsapp" required>
-         </div>
+      <div class="contact__form" id="contact_form">
+         <input type="email" name="e-mail" placeholder="seu melhor e-mail">
+         <input type="tel" name="tel" placeholder="seu whatsapp" required>
+      </div>
 
-         <div class="select__peaple">
-            <div class="peaple__tipe">
-               <label for="radio">Pessoa Juridica</label>
-               <input name="Tipo" type="radio">
+      <div class="select__peaple">
+         <div class="peaple__tipe">
+            <label for="radio">Pessoa Juridica</label>
+            <input name="Tipo" type="radio">
+         </div>
+         <div class="peaple__tipe">
+            <label for="radio">Pessoa Fisica</label>
+            <input name="Tipo" type="radio">
+         </div>
+      </div>
+
+      <div class="container__dropdown">
+         <input type="text" required name="categoria" placeholder="Selecione o modelo que deseja fazer o orçamento"
+            onfocus="dropDown(0)" onblur="dropDown(1)" class="input__dropdown">
+         <div class="dropDown">
+            <div class="listDropDown">
+               <div class="item" id="item-1" onmousedown="category(1)">Prensa Enfardadeira PNR12 10T</div>
+
+               <div class="item" id="item-2" onmousedown="category(2)">Prensa Enfardadeira PNR12 15T</div>
+
+               <div class="item" id="item-3" onmousedown="category(3)">Prensa Enfardadeira PNR12 25T</div>
+
+               <div class="item" id="item-4" onmousedown="category(4)">Prensa Enfardadeira PNR12 40T</div>
             </div>
-            <div class="peaple__tipe">
-               <label for="radio">Pessoa Fisica</label>
-               <input name="Tipo" type="radio">
-            </div>
          </div>
+         <button type="submit">Enviar</button>
+      </div>
+   </form>
+</section>
 
-         <div class="container__dropdown">
-            <input type="text" required name="categoria" placeholder="Selecione o modelo que deseja fazer o orçamento"
-               onfocus="dropDown(0)" onblur="dropDown(1)" class="input__dropdown">
-            <div class="dropDown">
-               <div class="listDropDown">
-                  <div class="item" id="item-1" onmousedown="category(1)">Prensa Enfardadeira PNR12 10T</div>
-
-                  <div class="item" id="item-2" onmousedown="category(2)">Prensa Enfardadeira PNR12 15T</div>
-
-                  <div class="item" id="item-3" onmousedown="category(3)">Prensa Enfardadeira PNR12 25T</div>
-
-                  <div class="item" id="item-4" onmousedown="category(4)">Prensa Enfardadeira PNR12 40T</div>
-               </div>
-            </div>
-            <button type="submit">Enviar</button>
-         </div>
-      </form>
-   </section>
-
-   <!-- ============================= END FORM BUGET ============================= -->
+ <!-- ============================= END FORM BUGET ============================= -->
 
 
 
@@ -357,6 +350,6 @@
    <!-- ============================= END FOOTER ============================= -->
 
 </body>
-<script src="../../Assets/JS/index.js"></script>
+<script src="../Assets/JS/index.js"></script>
 
 </html>

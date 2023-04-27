@@ -162,11 +162,11 @@ nav {
    width: 230px;
 }
 
-.big__image img{
+.big__image img {
    width: 350px;
 }
 
-.big__image video{
+.big__image video {
    width: 350px;
    border-radius: 22px;
 }
@@ -180,7 +180,7 @@ nav {
    width: 210px;
 }
 
-.text__information button > a {
+.text__information button>a {
    color: #FFF;
    text-decoration: none;
 }
@@ -203,7 +203,7 @@ nav {
 
 /* ============================= TABLE PRODUCT MODELS =============================*/
 
-table{
+table {
    border-collapse: collapse;
    margin-top: 5rem;
 }
@@ -211,21 +211,18 @@ table{
 .color__thead {
    background-color: #EB5858;
    color: #fff;
-   
+
 }
 
-caption {
-   font-size: 1.2rem;
-   font-weight: bold;
-   padding: 20px;
-}
+
 
 td {
    font-weight: 600;
 }
 
 
-th, td{
+th,
+td {
    border: solid 1px #000;
    padding: 30px;
    font-size: 0.8rem;
@@ -260,7 +257,7 @@ th, td{
    padding: 6rem 6rem 2rem;
 }
 
-#image__small img{
+#image__small img {
    width: 350px;
 }
 
@@ -781,6 +778,112 @@ input:focus {
    .mobile-menu .login-button button {
       width: 100%;
    }
+
+   .image__information {
+      flex-direction: column;
+   }
+
+   /* END NAVEBAR */
+
+   .table-section {
+      width: 100%;
+      overflow: auto;
+   }
+
+   .information-product {
+      width: 100%;
+      margin-left: 1rem;
+      margin-right: 1rem;
+   }
+
+   .table-section caption {
+      font-size: 1.2rem;
+      width: 500px;
+      font-weight: bold;
+      padding: 20px 20px 20px 0;
+   }
+
+   .big__image img {
+      width: 300px;
+   }
+
+   .text__information {
+      padding-right: 1rem;
+      width: 90%;
+   }
+
+   /* ============================= FOOTER =============================*/
+   .container-footer {
+      position: relative;
+      top: 10rem;
+      width: 100%;
+      margin-top: 5rem;
+      padding: 1rem;
+   }
+
+   .contact-us {
+      flex-direction: column;
+      margin: 0;
+      gap: 2rem;
+      justify-content: center;
+
+   }
+
+
+   .links {
+      padding-top: 2rem;
+   }
+
+   .follow-up {
+      padding-top: 2rem;
+   }
+
+   .info-links-form {
+      flex-direction: column;
+      padding: 0;
+   }
+
+   .follow-social {
+      padding: 0;
+
+   }
+
+   /* ======================= FORM BUGET=================== */
+
+   #section_form {
+      margin-top: 100px;
+      width: 100%;
+      padding: 2rem;
+   }
+
+   .form__pag__product {
+      display: flex;
+      flex-direction: column;
+      padding: 0;
+      width: 100%;
+
+   }
+
+   .form__pag__product .name input {
+      width: 100%;
+      margin-left: 0;
+      padding-right: 3rem;
+   }
+
+   #contact_form {
+      width: 100%;
+
+   }
+
+   .container__dropdown input {
+      width: 100%;
+   }
+
+   .container__dropdown button {
+      width: 100%;
+   }
+
+   /* =======================END CONTATO FORM=================== */
 
 
 
