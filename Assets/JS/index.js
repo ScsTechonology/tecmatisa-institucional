@@ -30,7 +30,7 @@ information.forEach((information) => {
     // change icon
 
     let icon = information.querySelector(".information__icon i");
-    
+
     if (icon.className === "uil uil-plus") {
       icon.className = "uil uil-minus";
     } else {
@@ -42,19 +42,19 @@ information.forEach((information) => {
 
 // DROPDOWN FORMS SELECTION
 
-function dropDown (position) {
-    let element = document.getElementsByClassName('dropDown')[0];
-    let display = ['block', 'none']
+function dropDown(position) {
+  let element = document.getElementsByClassName('dropDown')[0];
+  let display = ['block', 'none']
 
-    element.style.display = display[position]
-    setTimeout(function(){
-        element.style.transform = 'translate(0px)'
-    },0);
+  element.style.display = display[position]
+  setTimeout(function () {
+    element.style.transform = 'translate(0px)'
+  }, 0);
 }
 
 // seleção de item dropdown
 
-function category (c) {
-    let item = document.getElementById('item-' + c).innerHTML;
-    document.getElementsByClassName('input__dropdown')[0].value = item
+function category(c) {
+  let item = document.getElementById('item-' + c).innerHTML;
+  document.getElementsByClassName('input__dropdown')[0].value = item
 }

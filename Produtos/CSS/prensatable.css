@@ -714,6 +714,7 @@ input:focus {
 @media screen and (max-width: 730px) {
 
    /* ============================= MENU HAMBURGUER ============================= */
+   /* ============================= MENU HAMBURGUER */
    .nav-bar {
       padding: 1.5rem 2rem;
       display: flex;
@@ -779,8 +780,8 @@ input:focus {
       width: 100%;
    }
 
-   .image__information {
-      flex-direction: column;
+   .open {
+      display: block;
    }
 
    /* END NAVEBAR */
