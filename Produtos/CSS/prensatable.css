@@ -203,6 +203,19 @@ nav {
 
 /* ============================= TABLE PRODUCT MODELS =============================*/
 
+.container__table {
+   padding: 0 7rem;
+}
+
+.table-section table>caption {
+   font-weight: 800;
+   margin-bottom: 1rem;
+}
+
+.container__table h2 {
+   display: none;
+}
+
 table {
    border-collapse: collapse;
    margin-top: 5rem;
@@ -248,165 +261,59 @@ td {
 
 
 
-
-
-
-/* ============================= CONTAINER CARD PRODUCT =============================*/
-
-.title {
-   padding: 6rem 6rem 2rem;
-}
-
-#image__small img {
-   width: 350px;
-}
-
-
-.container__product {
-   width: 100%;
-   padding: 1rem 6rem;
-   gap: 5rem;
-
-
-   display: flex;
-   justify-content: space-between;
-   flex-wrap: wrap;
-}
-
-.cards__product {
-   padding: 2rem;
-   display: flex;
-   flex-direction: column;
-
-   width: 354px;
-   height: 440px;
-
-   background: #FFFFFF;
-   box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.14);
-   border-radius: 22px;
-}
-
-.cards__product:hover {
-   border: #EB5858 1px solid;
-}
-
-
-.content__card {
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-
-
-}
-
-.content__card img {
-   width: 80%;
-}
-
-.content__card span {
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   background-color: #1E1E1E;
-   width: 172px;
-   height: 32px;
-   border-radius: 22px;
-   font-size: 15px;
-   color: #fff;
-   margin-top: 1rem
-}
-
-.name__product {
-   display: flex;
-   align-items: center;
-   justify-content: space-between;
-   gap: 0.8rem;
-
-   padding: 0;
-}
-
-.name__product p {
-   margin-top: 1rem;
-
-}
-
-.btn__card {
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   padding-top: 5px;
-   border-radius: 50%;
-   width: 40px;
-   height: 40px;
-   background-color: #343333;
-   transition: 0.5s ease;
-}
-
-.btn__card:hover {
-   background-color: #EB5858;
-}
-
-/* ============================= END CONTAINER CARD PRODUCT =============================*/
-
-
-
 /* ============================= FORMULARIO DE ORÇAMENTO DAS PRENSAS =============================*/
 
-
-#orçamento {
-   display: flex;
-   align-items: center;
-   padding: 0 6rem;
+#section_form {
+   padding: 0 10rem;
+   margin-top: 3rem;
+}
+#section_form h2 {
+   text-align: center;
 }
 
-.container__left {
-   padding-top: 5rem;
+.form__pag__product label {
+   font-size: 15px;
+   font-weight: 700;
 }
 
-.form__pag__product {
-   padding: 7rem 0rem 0 7rem;
 
-
-}
 
 .form__pag__product input {
+   width: 80vw;
+   padding: 0.8rem;
+   border-radius: 8px;
+}
+
+.form__pag__product button {
+   width: 80vw;
    padding: 0.5rem;
-   border-radius: 22px;
-   border: #171717 solid 1px;
+   margin-top: 2rem;
+   background-color: #EB5858;
+   border: none;
+   color: #FFF;
+   font-weight: 500;
+   border-radius: 10px;
+   transition: 0.5s ease;
+   cursor: pointer;
+} 
+
+.form__pag__product button:hover {
+   background-color: #171717;
+   transform: scale(1.03);
 }
 
 .name {
    display: flex;
-   gap: 0.5rem;
-   margin-top: 0.5rem;
-}
-
-.name input {
-   width: 325px;
+   flex-direction: column;
+   width: 100%;
+   gap: 0.8rem;
 }
 
 .contact__form {
-   width: 660px;
+   margin-top: 0.5rem;
    display: flex;
    flex-direction: column;
-   gap: 0.5rem;
-   margin-top: 0.5rem;
-}
-
-
-.contact__form button {
-   padding: 0.5rem;
-   background-color: #EB5858;
-   border-radius: 22px;
-   border: none;
-   color: #ffffff;
-   transition: 0.5s ease;
-   cursor: pointer;
-}
-
-.contact__form button:hover {
-   background-color: #171717;
-   transform: scale(1.05);
+   gap: 0.8rem;
 }
 
 
@@ -415,35 +322,19 @@ td {
 
 
 .container__dropdown {
-   margin-top: 0.5rem;
+   margin-top: 2rem;
    display: flex;
    flex-direction: column;
    gap: 0.5rem;
 }
 
-.container__dropdown button {
-   width: 660px;
-   background-color: #EB5858;
-   padding: 0.5rem;
-   border: none;
-   color: #fff;
-   border-radius: 22px;
-   transition: 0.5s ease;
-   cursor: pointer;
-}
 
-.container__dropdown button:hover {
-   background-color: #171717;
-   transform: scale(1.03);
-}
+
 
 .container__dropdown input {
-   border-radius: 22px;
-   height: 40px;
-   width: 660px;
-   outline: none;
-   background-color: #ffffff;
-   color: #171717;
+   width: 80vw;
+   padding: 0.8rem;
+   border-radius: 8px;
 }
 
 ::-webkit-input-placeholder {
@@ -452,7 +343,7 @@ td {
 }
 
 .dropDown {
-   width: 660px;
+   width: 100%;
    border-radius: 5px;
    margin-top: 10px;
    height: auto;
@@ -714,7 +605,7 @@ input:focus {
 @media screen and (max-width: 730px) {
 
    /* ============================= MENU HAMBURGUER ============================= */
-   /* ============================= MENU HAMBURGUER */
+
    .nav-bar {
       padding: 1.5rem 2rem;
       display: flex;
@@ -784,34 +675,73 @@ input:focus {
       display: block;
    }
 
-   /* END NAVEBAR */
+   /*  =============================  END NAVEBAR  =============================  */
+
+
+
+
+
+   /*  =============================  INFO PRODUTO  =============================  */
+
+   .image__information {
+      flex-direction: column;
+   }
+
+   .text__information h1, p {
+      text-align: center;
+   }
+
+   .btn__info {
+      display: flex;
+      justify-content: center;
+   }
+
+
+   /*  ============================= END INFO PRODUTO  =============================  */
+
+
+   /*  ============================= SECTION TABLE  =============================  */
+
+   .container__table {
+      padding: 0 1rem;
+   }
 
    .table-section {
-      width: 100%;
       overflow: auto;
    }
 
-   .information-product {
+   .table-section table>caption {
+      display: none;
+   }
+
+   .container__table h2 {
+      display: block;
+      text-align: center;
+   }
+
+   /*  ============================= END SECTION TABLE  =============================  */
+
+
+
+
+
+   /*  ============================= SECTION TABLE  =============================  */
+
+   #section_form {
       width: 100%;
-      margin-left: 1rem;
-      margin-right: 1rem;
    }
 
-   .table-section caption {
-      font-size: 1.2rem;
-      width: 500px;
-      font-weight: bold;
-      padding: 20px 20px 20px 0;
+   #section_form .form {
+      width: 100%;
+   }
+   
+   .dropDown {
+      width: 100%;
+      
    }
 
-   .big__image img {
-      width: 300px;
-   }
 
-   .text__information {
-      padding-right: 1rem;
-      width: 90%;
-   }
+
 
    /* ============================= FOOTER =============================*/
    .container-footer {
